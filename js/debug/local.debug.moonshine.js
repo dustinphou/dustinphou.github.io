@@ -32,7 +32,7 @@ shine.debug = shine.debug || {};
 
 shine.debug.LOCAL_UI_URL = (function () {
 	var script = document.querySelector('script[src$="local.debug.moonshine.js"]');
-	return shine.debug.LOCAL_UI_URL || (script? script.src.substr(0, script.src.length - 25) : './js/moonshine/extensions/debug') + '/ui';
+	return shine.debug.LOCAL_UI_URL || (script? script.src.substr(0, script.src.length - 25) : './js/moonshine/extensions/debug') + '/ui/';
 })();
 
 
